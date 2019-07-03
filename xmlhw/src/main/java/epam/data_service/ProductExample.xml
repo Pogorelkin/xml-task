@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+<store>
+    <category name = "cars">
+        <subcategory value = "sportCars">
+            <product name = "teslapromlg" type = "product">
+                <manufacturer manufacturer = "TeslaCArs"/>
+                <model>ds454</model>
+                <color>Blue</color>
+                <manufactureDate value = "02-04-2001"/>
+                <price>1000</price>
+                <amount>0</amount>
+            </product>
+        </subcategory>
+
+        <subcategory value=  "militaryCars">
+            <product name = "Panza">
+                <manufacturer value = "GermanTanks"/>
+                <model>ds454</model>
+                <color>Blue</color>
+                <manufactureDate value = "02-04-1971"/>
+                <price>9900.30</price>
+                <amount>1</amount>
+            </product>
+        </subcategory>
+    </category>
+
+    <category name = "tvs">
+        <subcategory value = "lcd">
+            <product name = "halo">
+                <manufacturer value = "LG"/>
+                <model>hz254</model>
+                <color>Blue</color>
+                <manufactureDate value = "02-04-2001"/>
+                <price>50</price>
+                <amount>10</amount>
+            </product>
+        </subcategory>
+    </category>
+</store>
+</root>

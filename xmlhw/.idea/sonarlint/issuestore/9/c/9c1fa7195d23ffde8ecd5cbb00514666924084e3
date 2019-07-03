@@ -1,0 +1,11 @@
+
+Hsquid:S00108")Either remove or fill this block of code.(ï­£Ä8ñ‚¸»-
+Psquid:S1199V"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8Å·•¸»-
+osquid:S1871S"LThis branch's code block is the same as the block for the branch on line 81.(Ëë¡œıÿÿÿÿ8Å·•¸»-
+Hsquid:S001088")Either remove or fill this block of code.(ï­£Ä8ñ‚¸»-
+ksquid:S2095?"HUse try-with-resources or close this "JsonReader" in a "finally" clause.(¯ª…öşÿÿÿÿ8ñ‚¸»-
+£squid:S1862e"„This branch can not be reached because the condition duplicates a previous condition in the same sequence of "if/else if" statements(ÀØÜÁ8¤ü¸»-
+ksquid:S2095"HUse try-with-resources or close this "JsonWriter" in a "finally" clause.(„şê²şÿÿÿÿ8ñ‚¸»-
+jsquid:S1871e"LThis branch's code block is the same as the block for the branch on line 99.(ÀØÜÁ8µ®¸»-
+usquid:S3776="RRefactor this method to reduce its Cognitive Complexity from 36 to the 15 allowed.(×·‡íùÿÿÿÿ8ñ‚¸»-
+¨squid:S1862S"„This branch can not be reached because the condition duplicates a previous condition in the same sequence of "if/else if" statements(Ëë¡œıÿÿÿÿ8ÿ³”¸»-

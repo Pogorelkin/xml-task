@@ -1,0 +1,20 @@
+
+Esquid:S14810"(Remove this unused "xif" local variable.(¾Ú¸I8ƒÁ³»-
+Zsquid:S18542"7Remove this useless assignment to local variable "xml".(“‰ñàùÿÿÿÿ8ƒÁ³»-
+[squid:S1854."=Remove this useless assignment to local variable "schemaLoc".(›¡Ñê8ÓÑï³»-
+`squid:UselessImportCheck"0Remove this unused import 'java.io.IOException'.(ªº»Úıÿÿÿÿ8×ÿ€´»-
+hsquid:UselessImportCheck"=Remove this unused import 'javax.xml.stream.XMLStreamReader'.(Û†õ×8İ»¸»-
+nsquid:CommentedOutCodeLine<"<This block of commented-out lines of code should be removed.(æÁ˜Ñûÿÿÿÿ8Ëæö³»-
+ksquid:UselessImportCheck"@Remove this unused import 'javax.xml.stream.XMLStreamException'.(ŞÂ¸8ªà€´»-
+Tsquid:S18540"7Remove this useless assignment to local variable "xif".(¾Ú¸I8ƒÁ³»-
+nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(š õ¥ÿÿÿÿÿ8Ìéõµ»-
+Rsquid:EmptyStatementUsageCheck1"Remove this empty statement.(Åñ­õşÿÿÿÿ8œòù¥»-
+squid:S1319-"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(Âõîæ8¿¢º³»-
+gsquid:S1854/"DRemove this useless assignment to local variable "productArrayList".(Ê°êÈúÿÿÿÿ8çÊ½³»-
+|squid:S2293D"YReplace the type specification in this constructor call with the diamond operator ("<>").(‰ãš”ùÿÿÿÿ8ÀÑ‹´»-
+Rsquid:S1068"/Remove this unused "productList" private field.(•å›’şÿÿÿÿ8˜ÿ™³»-
+Fsquid:S1148A"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8œòù¥»-
+Xsquid:S1481/"5Remove this unused "productArrayList" local variable.(Ê°êÈúÿÿÿÿ8è¾³»-
+Ksquid:S14812"(Remove this unused "xml" local variable.(“‰ñàùÿÿÿÿ8ƒÁ³»-
+Lsquid:S1481.".Remove this unused "schemaLoc" local variable.(›¡Ñê8ÓÑï³»-
+nsquid:CommentedOutCodeLine9"<This block of commented-out lines of code should be removed.(¨œë‰úÿÿÿÿ8éŠ÷µ»-

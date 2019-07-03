@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema  elementFormDefault="qualified"
+            xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.example.com ProductSchema.xsd"     >
+
+    <xs:complexType name="store">
+        <xs:sequence>
+            <xs:element name="catList" type="category" maxOccurs="unbounded"/>
+        </xs:sequence>
+
+    </xs:complexType>
+
+
+    <xs:complexType name="category">
+        <xs:sequence>
+            <xs:element name="subcatList" type="subcategory" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="subcategory">
+        <xs:sequence>
+            <xs:element name="Products" type="product" minOccurs="0" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+
+
+    <xs:complexType name="product">
+        <xs:sequence>
+
+            <xs:element name="manufacturer">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:pattern value="([a-zA-z_][0-9])*"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+
+            <xs:element name="model">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:pattern value="[a-zA-z][a-zA-z][a-zA-z][0-9][0-9]"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="color">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:pattern value="([a-zA-z])*"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+
+            <xs:element name="manufactureDate">
+                <xs:simpleType>
+            <xs:restriction base="xs:date">
+                <xs:pattern value="[0-3][0-9]-[0-1][0-9]-[1-2][0-9][0-9][0-9]"/>
+            </xs:restriction>
+        </xs:simpleType>
+            </xs:element>
+
+            <xs:element name="price">
+                <xs:simpleType>
+                    <xs:restriction base="xs:double">
+                        <xs:minInclusive value="0"/>
+                    </xs:restriction>
+                </xs:simpleType>
+
+            </xs:element>
+
+
+            <xs:element name="amount" default="0">
+                <xs:simpleType>
+                    <xs:restriction base="xs:integer">
+                        <xs:minInclusive value="0"/>
+                    </xs:restriction>
+                </xs:simpleType>
+
+            </xs:element>
+        </xs:sequence>
+
+
+    </xs:complexType>
+
+
+
+</xs:schema>

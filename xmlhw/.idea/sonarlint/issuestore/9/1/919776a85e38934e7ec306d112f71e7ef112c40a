@@ -1,0 +1,7 @@
+
+Fsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8çä¤·»-
+squid:S1488"\Immediately return this expression instead of assigning it to the temporary variable "root".(¥‘¯Äÿÿÿÿÿ8çä¤·»-
+V
+squid:S106'"9Replace this use of System.out or System.err by a logger.(ýìžç8•Ãž¸»-
+V
+squid:S106%"9Replace this use of System.out or System.err by a logger.(†ò¤û8•Ãž¸»-
